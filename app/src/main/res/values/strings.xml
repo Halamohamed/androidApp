@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">QuizApp</string>
+    <string name="question">Question</string>
+    <string name="mathematics">Mathematics</string>
+    <string name="question_one_mathematics">QuestionOne</string>
+    <string name="mathematics_check_box1">CheckBox1</string>
+    <string name="mathematics_check_box2">CheckBox2</string>
+    <string name="mathematics_check_box3">CheckBox3</string>
+    <string name="mathe_btn_nex">Next</string>
+    <string name="history">History</string>
+    <string name="question_one_history">QuestionOne</string>
+    <string name="history_check_box1">CheckBox1</string>
+    <string name="history_check_box2">CheckBox2</string>
+    <string name="history_check_box3">CheckBox3</string>
+    <string name="hist_btn_nex">Next</string>
+    <string name="geography">Geography</string>
+    <string name="question_one_geography">QuestionOne</string>
+    <string name="geography_check_box1">CheckBox1</string>
+    <string name="geography_check_box2">CheckBox2</string>
+    <string name="geography_check_box3">CheckBox3</string>
+    <string name="geo_btn_nex">Next</string>
+    <string name="next">NEXT</string>
+    <string name="api">Api</string>
+    <string name="user_image">user image</string>
+    <string name="difficulty_index">difficulty</string>
+    <string name="developer">developer</string>
+    <string name="geo_player">geography</string>
+    <string name="geo_challenge">challenge value</string>
+    <string name="timer_text">timer text</string>
+    <string name="score_text">score text</string>
+    <string name="new_record">new record</string>
+    <string name="not_as_good">not as good</string>
+    <string name="not_good_enough_text">not good enough</string>
+    <string name="negative_score_description">negative score</string>
+</resources>

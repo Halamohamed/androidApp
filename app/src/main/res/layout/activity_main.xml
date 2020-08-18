@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Geography"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E1E9EA"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/history_btn"
+        android:layout_width="128dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="140dp"
+        android:layout_marginLeft="140dp"
+        android:layout_marginBottom="92dp"
+        android:background="#00BCD4"
+        android:text="@string/history"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/mathematics_btn"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/mathematics_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="96dp"
+        android:layout_marginLeft="96dp"
+        android:layout_marginBottom="228dp"
+        android:background="#00BCD4"
+        android:text="@string/mathematics"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/geography_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="116dp"
+        android:layout_marginLeft="116dp"
+        android:background="#00BCD4"
+        android:text="@string/geography"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/history_btn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.51" />
+
+    <Button
+        android:id="@+id/api_btn"
+        android:layout_width="150dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="140dp"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="72dp"
+        android:background="#00BCD4"
+        android:shadowColor="#FFFFFF"
+        android:text="@string/api"
+        android:textColorLink="#00BCD4"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mathematics_btn" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
